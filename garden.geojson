@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [0, 10]},
+      "properties": {"name": "Joe-Pye Weed", "height": "7ft", "icon": "🌿"}
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [10, 0]},
+      "properties": {"name": "Switchgrass", "height": "5ft", "icon": "🌾"}
+    }
+  ]
+}
