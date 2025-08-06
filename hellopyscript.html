@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello PyScript</title>
+    <!-- Load PyScript from CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <h1>Hello, PyScript!</h1>
+    <py-script>
+        from datetime import datetime
+        now = datetime.now()
+        display(f"Hello from Python! The current time is {now}")
+    </py-script>
+</body>
+</html>
